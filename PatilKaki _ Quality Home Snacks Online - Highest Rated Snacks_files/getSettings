@@ -1,0 +1,1 @@
+_omnisend.setSettings({"success":true,"statusCode":200,"data":{"updatedAt":"2022-03-10T12:33:44.048112052Z","brandID":"5fcc75268a48f7337bc17068","brandData":{"countryCode":"IN"},"forms":null,"pushNotifications":{"enabled":false},"cartHook":{"enabled":false}}});

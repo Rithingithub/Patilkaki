@@ -1,0 +1,357 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.cc-rewards {
+	flex-direction: column;
+	height: 100%;
+	display: flex;
+}
+
+.cc-body.cc-empty, .cc-rewards {
+	min-height: calc(100vh - 51px);
+}
+
+.cc-rewards {
+	height: calc(100vh - 51px);
+}
+
+.cc-cart-reward a.button {
+	font-family: 'IBM Plex Sans', helvetica !important;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	color: #000;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 1.5;
+	letter-spacing: 0;
+}
+
+.cc-cart-reward a.button {
+	padding: 9px 12px !important;
+	background-color: #f7f7f7 !important;
+	color: black !important;
+	border: 1px solid #d9d9d9 !important;
+	font-size: 13px !important;
+	text-transform: capitalize;
+	letter-spacing: 0;
+	font-weight: bold;
+	border-radius: 3px !important;
+	line-height: 14px !important;
+	background-image: none;
+}
+
+.cc-cart-reward a.button:hover {
+	background-color: #000 !important;
+	border-color: #000 !important;
+	color: #FFF !important;
+	text-decoration: none !important;
+	transition: 0.5s;
+}
+
+.cc-cart-reward {
+	padding: 15px;
+	border: 2px dashed #c5c5c5;
+	background-color: #FFF;
+	text-align: center;
+	width: 43.5%;
+	display: inline-block;
+	margin-right: 0 !important;
+	margin-bottom: 15px;
+	vertical-align: top;
+	margin: 15px;
+}
+
+.cc-cart-reward:nth-child(2) {
+	margin-right: 0;
+}
+
+.cc-cart-reward-coupon {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.cc-cart-reward-amount {
+	text-align: center;
+	font-weight: bold;
+}
+
+.cc-cart-reward-expires {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.cc-cart-reward-code {
+	font-family: monospace;
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.cc-cart-reward-details {
+	font-size: 14px;
+}
+
+.cc-cart-reward .cc-reward-action {
+	width: 100%;
+	margin-top: 10px;
+	height: auto;
+}
+
+.cc-cart-reward-restrict p {
+	margin-bottom: 2px;
+}
+
+.cc-cart-reward-restrict label {
+	margin-bottom: 5px;
+	display: block;
+}
+
+.cc-compass.cc-compass-top {
+	top: 40px;
+	bottom: auto;
+}
+
+.admin-bar .cc-compass.cc-compass-top {
+	top: 72px;
+}
+
+.cc-register .cc-register-btn {
+	margin-bottom: 10px;
+}
+
+.cp-success-notice {
+	border-top: 3px solid #12b99a !important;
+}
+
+.cc-cart .cc-body .cc-error, .cc-coupon .woocommerce-error, .cc-rewards .cc-body .cc-error {
+	background-color: #fff;
+	padding: 1em 1em 1em 3em;
+	margin-bottom: 1em;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 1px solid #d7d7d7;
+	border-top: 3px solid #b81c23;
+}
+
+.cc-cart .cc-body .cc-error::before, .cc-rewards .cc-body .cc-error::before {
+	content: "\e016";
+	color: #b81c23;
+	font-family: WooCommerce;
+	position: absolute;
+	left: 30px;
+}
+
+.cc-coupon .woocommerce-error {
+	color: #000000;
+}
+
+#toast-container > div {
+	background-color: #FFF;
+	opacity: 1;
+	color: #000;
+	font-size: 14px;
+	box-shadow: rgb(0 0 0 / 6%) 0px 1px 6px 0px, rgb(0 0 0 / 9%) 0px 2px 32px 0px;
+	padding: 18px 16px 19px 55px;
+	/* 	width: 345px; */
+	border-radius: 5px;
+}
+
+#toast-container > div:hover {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px, rgba(0, 0, 0, 0.1) 0px 1px 20px;
+}
+
+.toast-bottom-right {
+	bottom: 100px;
+	right: 25px;
+}
+
+.toast-top-right {
+	top: 150px;
+	right: 25px;
+}
+
+.cc-toast-open {
+	transition: all 0.3s ease;
+	right: 430px;
+}
+
+#toast-container > .toast-success {
+	background-image: none;
+}
+
+.toast.toast-success:before {
+	content: "\e908";
+	font-family: 'cc-public-icons' !important;
+	font-size: 15px;
+	color: #ffffff;
+	top: 22px;
+	background-color: #12b99a;
+	border-radius: 100px;
+	padding: 3px;
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	left: 20px;
+	text-align: center;
+	line-height: 20px;
+	box-sizing: content-box;
+}
+
+.cp-success-notice:before {
+	content: "\e908" !important;
+	font-family: 'cc-public-icons' !important;
+	font-size: 14px;
+	color: #ffffff !important;
+	background-color: #12b99a;
+	border-radius: 100px;
+	padding: 1px;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+	line-height: 18px;
+	margin-right: 10px;
+	position: absolute;
+	left: 15px !important;
+}
+
+.cc-notice-ctas {
+	margin-top: 10px;
+}
+
+.cc-notice-ctas a.added_to_cart {
+	padding-top: .618em;
+	background-color: #efefef !important;
+	color: #000 !important;
+	margin-right: 10px !important;
+}
+
+.toast-message .cc-pl-info-wrapper .cc-pl-upsells, 
+.toast-message .cc-pl-info-wrapper .cc-pl-upsells a,
+.toast-message .cc-pl-info-wrapper .cc-pl-upsells label {
+	color: initial;
+	text-decoration: none;
+}
+
+.cc-notice-rec {
+	padding: 0 !important;
+}
+
+.cc-notice-rec:before {
+	display: none;
+}
+
+.cc-notice-rec .cc-pl-info-wrapper {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+.cc-notice-rec .up-sells-product {
+	display: inline-block;
+}
+
+.cc-notice-rec .cc-pl-upsells .slick-list.draggable {
+	background-color: transparent;
+	border: none;
+}
+
+.cc-notice-rec .cc-pl-upsells .cc-pl-upsells-slider .slide {
+	border: none;
+	padding: 0;
+}
+
+.cc-notice-rec .cc-pl-upsells .cc-pl-upsells-slider .slide img {
+	width: 150px !important;
+	height: 150px !important;
+	margin: 0 auto 10px;
+	padding: 0;
+}
+
+.cc-notice-rec .slick-slide .cc-up-sells-details {
+	text-align: center;
+}
+
+.cc-notice-rec .slick-slide .title, .cc-notice-rec .slick-slide .price {
+	text-align: center;
+	display: block !important;
+}
+
+.cc-notice-rec .cc-pl-upsells label {
+	width: 230px;
+	margin: auto auto 15px;
+	font-size: 15px;
+}
+
+.cc-notice-rec .cc-pl-upsells .slick-slide .single_add_to_cart_button, .cc-notice-rec .slick-slide .button, .cc-notice-rec .woocommerce .slick-slide .button {
+	margin-bottom: 0 !important;
+}
+
+.cc-notice-rec .slick-arrow {
+	font-size: 30px;
+}
+
+.cc-notice-rec .cc-pl-upsells .cc-pl-upsells-slider {
+	width: 65% !important;
+}
+
+.cc-notice-ctas .button {
+	color: #000 !important;
+	padding: .618em 1em !important;
+	transition: all 0.3s ease;
+}
+
+.cc-notice-ctas .button:hover, .cc-notice-ctas .button:last-child {
+	background-color: #000 !important;
+	color: #FFF !important;
+}
+
+.toast-message {
+	font-size: 14px;
+}
+
+.toast-close-button {
+	color: #000;
+	right: 15px;
+	top: 10px;
+	background-color: transparent !important;
+	color: #000 !important;
+	min-height: auto;
+	margin: 0;
+}
+
+.toast-close-button:focus, .toast-close-button:hover {
+	background-color: transparent;
+	color: #FF0000 !important;
+	opacity: 1;
+	filter: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+	.cc-notice-rec .cc-pl-upsells .cc-pl-upsells-slider .slide img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.cc-notice-rec .cc-pl-upsells .slick-slide .single_add_to_cart_button, .cc-notice-rec .slick-slide .button, .cc-notice-rec .woocommerce .slick-slide .button {
+		font-size: 14px !important;
+	}
+
+	.cc-notice-rec .cc-pl-upsells label {
+		font-size: 14px;
+	}
+
+	.cc-notice-rec .cc-pl-info-wrapper {
+		padding: 20px;
+	}
+
+	.cc-notice-rec .cc-pl-upsells label {
+		width: 185px;
+	}
+
+}
